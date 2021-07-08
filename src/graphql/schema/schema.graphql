@@ -1,0 +1,7 @@
+type Query {
+    ping(arg: String!): String!
+    messages(arg: String!): String! 
+}
+type Message {
+    content: String!,
+}

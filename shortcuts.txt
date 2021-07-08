@@ -1,0 +1,9 @@
+TYPESCRIPT
+npx tsc --init --rootDir src --outDir build --lib dom, es6 --module commonjs --removeComents --target es6
+GRAPHQL
+PRODUCTION DEPENDENCIES
+npm install express express-graphql graphql ncp http graphql-import-node compression cors
+typescript graphql-tools graphql-playground-middleware-express
+DEVELOPMENT DEPENDENCIES
+npm install @types/compression @types/express @types/cors @types/express-graphql -D
+npm i @types/node @types/graphql -D
